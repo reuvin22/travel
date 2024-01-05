@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --primary: #F85E9F;
+    --secondary: #5D50C6;
+    --tertiary: #191825;
+    --btn-color: #5D50C6;
+    --primary-text : 16px;
+    --secondary-text: 14px;
+    --margin-left: 10%;
+    --margin-right: 10%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+#home {
+    width: 100%;
+    height: 90vh;
+}
+.homeContainer {
+    display: flex;
+    height: 90vh;
+    gap: 80px;
+}
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+.navContainer > h1 {
+    font-size: 31.56px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    margin-left: var(--margin-left);
+    background: linear-gradient(to right,  var(--secondary), var(--primary));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.navLinks {
+    display: flex;
+    gap: 20px;
+    margin-right: var(--margin-right);
+}
+.navLinks > a {
+    text-decoration: none;
+    font-size: var(--primary-text);
+    gap: 20px;
+    font-weight: 100;
+    color: #191825;
+}
+.navLinks > a::after {
+    display: block;
+    visibility: hidden;
+    content: '';
+    border: 1.5px solid var(--secondary);
+    width: 0%;
+    transition: 0.3s;
+}
+.navLinks > a:hover::after {
+    width: 100%;
+    visibility: visible;
+}
+.navLinks > a:hover {
+    color: var(--secondary);
+}
+.introduction {
+    height: 421px;
+    width: 512px;
+    display: grid;
+    place-content: start;
+    margin-left: var(--margin-left);
+    margin-top: 5%;
+}
+.explore {
+    font-size: var(--secondary-text);
+    color: var(--primary);
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 30px;
+    gap: 20px;
+    box-shadow: 10px 10px 18px -14px rgba(0,0,0,0.15);
+}
+.travel {
+    font-size: 30px;
+    font-weight:900;
+}
+.travel > span {
+    color: var(--primary);
+}
+.shortIntro > p {
+    color: var(--tertiary)
+}
+.introBtn {
+    display: flex;
+    gap: 30px;
+    margin-top: 5%;
+}
+.getStarted, .watchDemo {
+    width: 144px;
+    height: 49px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+.getStarted {
+    background-color: var(--btn-color);
+    color: white;
+}
+.watchDemo {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--tertiary);
+}
+.playbtn {
+    border: 1px solid #5D50C6;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5D50C6;
+}
+.images {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.globe{
+    height: 630px;
+    margin-top: -20%;
+}
+.globeGif {
+    height: 100%;
+}
