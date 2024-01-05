@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
         <div className="navContainer">
-            <h1>Travlog</h1>
+            <h1>TraPinas</h1>
             <div className="navLinks">
                 <a href="">Home</a>
                 <a href="">About</a>

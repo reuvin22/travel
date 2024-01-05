@@ -14,7 +14,7 @@ export default function Introduction() {
                         <span>Explore the world!</span>
                         <FontAwesomeIcon icon={faBagShopping} style={{color: "#f85e9f", height: 24, width: 24}}/>
                     </div>
-                    <div className='travel'><h1>Travel <span style={{ color: '#F85E9F' }}>top destination</span> of the world</h1></div>
+                    <div className='travel'><h1>Travel <span style={{ color: '#F85E9F' }}>top destination</span> in the Philippines</h1></div>
                     <div className='shortIntro'><p>Where adventure meets comfort. We create unforgettable travel experiences</p></div>
                     <div className='introBtn'>
                         <button className='getStarted'>Get Started</button>
