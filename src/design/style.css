@@ -78,7 +78,7 @@
 .explore {
     font-size: var(--secondary-text);
     color: var(--primary);
-    width: 50%;
+    width: 60%;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -114,14 +114,22 @@
     background-color: var(--btn-color);
     color: white;
 }
+.getStarted:hover{
+    box-shadow: -2px 3px 24px -7px var(--secondary);
+}
 .watchDemo {
-    background-color: white;
+    background-image: white;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    border: 1px solid var(--tertiary);
+    border: 1px solid var(--primary);
+    transition: 0.3s;
+}
+.watchDemo:hover {
+    background-color: #F85E9F;
+    box-shadow: -2px 3px 24px -7px var(--primary);
 }
 .playbtn {
     border: 1px solid #5D50C6;
