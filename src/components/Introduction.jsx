@@ -2,6 +2,12 @@ import React from 'react'
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faUsers } from '@fortawesome/free-solid-svg-icons'
+import PhilippinesAirline from '../img/PhilippinesAirline.png'
+import Tripad from '../img/tripad.png'
+import Booking from '../img/booking.png'
+import Airbnb from '../img/airbnb.png'
 import Globe from '../img/globe1.gif'
 
 export default function Introduction() {
@@ -23,7 +29,29 @@ export default function Introduction() {
                 </div>
                 <div className="images">
                     <div className="globe"><img src={Globe} alt="Globe" className='globeGif'/></div>
+                    <hr />
+                    <div className="places1">
+                        <FontAwesomeIcon icon={faLocationDot} style={{color: "#fdd50d", width: 40, height: 25}} />
+                        <p>Top Places</p>
+                    </div>
+                    <div className="places2">
+                        <FontAwesomeIcon icon={faLocationDot} style={{color: "#fdd50d", width: 40, height: 25}} />
+                        <p>Top Hotels</p>
+                    </div>
+                    <div className="places3">
+                        <FontAwesomeIcon icon={faUsers} style={{color: "#fdd50d", width: 40, height: 25}} />
+                        <div className="placeText">
+                            <h3>8000+</h3>
+                            <p>Customers</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div className="partners">
+                <img src={Airbnb} alt="Airbnb" />
+                <img src={PhilippinesAirline} alt="PhilippinesAirline" />
+                <img src={Booking} alt="Booking" />
+                <img src={Tripad} alt="Tripad" />
             </div>
         </section>
     </>
