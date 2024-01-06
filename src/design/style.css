@@ -502,14 +502,12 @@
         display: grid;
         place-items: center;
         width: 100%;
-        margin-left: 30%;
     }
     .arrows {
         width: 100%;
         justify-content: center;
         margin-left: 40%;
         margin-top: 3%;
-
     }
     #destination {
         width: 100%;
