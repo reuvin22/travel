@@ -47,11 +47,13 @@ export default function Introduction() {
                     </div>
                 </div>
             </div>
-            <div className="partners">
-                <img src={Airbnb} alt="Airbnb" />
-                <img src={PhilippinesAirline} alt="PhilippinesAirline" />
-                <img src={Booking} alt="Booking" />
-                <img src={Tripad} alt="Tripad" />
+            <div className="partnership">
+                <div className="partners">
+                    <img src={Airbnb} alt="Airbnb" />
+                    <img src={PhilippinesAirline} alt="PhilippinesAirline" />
+                    <img src={Booking} alt="Booking" />
+                    <img src={Tripad} alt="Tripad" />
+                </div>
             </div>
         </section>
     </>
