@@ -232,6 +232,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 .services {
     display: flex;
