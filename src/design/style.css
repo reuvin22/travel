@@ -67,6 +67,12 @@
 .navLinks > a:hover {
     color: var(--secondary);
 }
+.menu {
+    display: none;
+}
+.menuContent {
+    display: none;
+}
 .introduction {
     height: 421px;
     width: 512px;
@@ -153,4 +159,69 @@
 }
 .globeGif {
     height: 100%;
+}
+
+@media only screen and (max-width: 798px){
+    .images {
+        display: none;
+    }
+    .navLinks {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .burgerMenu {
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .burgerMenu:hover {
+        color: var(--primary);
+    }
+    .btnClose {
+        display: none;
+    }
+    .menuContent {
+        position: absolute;
+        width: 70%;
+        height: 60%;
+        background-color: white;
+        border: 2px solid var(--primary);
+        display: grid;
+        place-items: center;
+        z-index: 1;
+        right: 0;
+        margin-top: -8%;
+        border-radius: 25px 0px;
+    }
+    .links {
+        display: grid;
+        place-items: center;
+        gap: 20px;
+        margin-top: var(--margin-left);
+    }
+    .links > a {
+        color: white;
+        text-decoration: none;
+        color: var(--secondary);
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .links > a::after {
+        content: '';
+        visibility: hidden;
+        display: block;
+        width: 0%;
+        border: 1.5px solid var(--primary);
+        transition: 0.3s;
+    }
+    .links > a:hover::after{
+        visibility: visible;
+        width: 100%;
+    }
+    .navCloseBtn {
+        margin-top: 10%;
+        margin-left: 80%;
+        cursor: pointer;
+    }
 }
