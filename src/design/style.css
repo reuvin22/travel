@@ -307,6 +307,7 @@
         filter: grayscale();
         opacity: 70%;
         height: 100px;
-        width: 100%;
+        width: 70%;
+        margin-left: 15%;
     }
 }
