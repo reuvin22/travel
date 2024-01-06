@@ -16,8 +16,8 @@ export default function Navbar() {
         <div className="navContainer" >
             <h1>TraPinas</h1>
             <div className="navLinks">
-                <a href="">Home</a>
-                <a href="">About</a>
+                <a href="#home">Home</a>
+                <a href="#service">About</a>
                 <a href="">Destinations</a>
                 <a href="">Packages</a>
                 <a href="">Blog</a>
@@ -28,8 +28,8 @@ export default function Navbar() {
               <div className="menuContent" style={close ? { display: "block" } : {display:'none'}}>
                 <FontAwesomeIcon icon={faX} style={{color: "#5d50c6",}} className='navCloseBtn' onClick={handleClose}/>
                 <div className="links">
-                  <a href="">Home</a>
-                  <a href="">About</a>
+                  <a href="#home">Home</a>
+                  <a href="#service">About</a>
                   <a href="">Destinations</a>
                   <a href="">Packages</a>
                   <a href="">Blog</a>
