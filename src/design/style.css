@@ -467,7 +467,7 @@
         display: grid;
         place-items: center;
         width: 100%;
-        height: 120vh;
+        height: 140vh;
     }
     .services {
         display: grid;
@@ -497,6 +497,9 @@
     }
     .destinationIntro > h1 {
         font-size: 30px;
+    }
+    .destinationIntro > h3 {
+        margin: 0%;
     }
     .destinationIntro {
         display: grid;
