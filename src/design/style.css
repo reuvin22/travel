@@ -193,6 +193,7 @@
         right: 0;
         margin-top: -8%;
         border-radius: 25px 0px;
+        padding: 20px;
     }
     .links {
         display: grid;
@@ -205,7 +206,7 @@
         text-decoration: none;
         color: var(--secondary);
         font-weight: bold;
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
     .links > a::after {
         content: '';
