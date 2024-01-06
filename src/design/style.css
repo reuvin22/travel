@@ -184,7 +184,7 @@
     .menuContent {
         position: absolute;
         width: 70%;
-        height: 60%;
+        height: 70%;
         background-color: white;
         border: 2px solid var(--primary);
         display: grid;
@@ -199,7 +199,6 @@
         place-items: center;
         gap: 20px;
         margin-top: var(--margin-left);
-        padding-bottom: 10px;
     }
     .links > a {
         color: white;
@@ -224,5 +223,12 @@
         margin-top: 10%;
         margin-left: 80%;
         cursor: pointer;
+    }
+    .introduction {
+        margin-left: 1%;
+        place-items: center;
+    }
+    .travel > h1, .shortIntro > p {
+        text-align: center;
     }
 }
