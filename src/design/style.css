@@ -232,7 +232,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
 }
 .services {
     display: flex;
@@ -278,6 +277,10 @@
     font-size: 15px;
 }
 @media screen and (min-width: 300px) and (max-width: 798px){
+    #home {
+        width: 100%;
+        height: 110vh;
+    }
     .images {
         display: none;
     }
@@ -387,6 +390,5 @@
         width: 100%;
         display: grid;
         place-items: center;
-        margin-top: 20%;
     }
 }
