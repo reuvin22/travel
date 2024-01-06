@@ -184,7 +184,7 @@
     .menuContent {
         position: absolute;
         width: 70%;
-        height: 70%;
+        height: 65%;
         background-color: white;
         border: 2px solid var(--primary);
         display: grid;
