@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faX } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 export default function Navbar() {
-  const [close, setClose] = useState(true);
+  const [close, setClose] = useState(false);
 
   const handleClose = ()=> {
     setClose(!close);
