@@ -507,5 +507,6 @@
     }
     #destination {
         height: 185vh;
+        background-color: blue;
     }
 }
