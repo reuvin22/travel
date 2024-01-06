@@ -18,7 +18,7 @@ export default function Navbar() {
             <div className="navLinks">
                 <a href="#home">Home</a>
                 <a href="#service">About</a>
-                <a href="">Destinations</a>
+                <a href="#destination">Destinations</a>
                 <a href="">Packages</a>
                 <a href="">Blog</a>
                 <a href="">Contact Us</a>
@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className="links">
                   <a href="#home">Home</a>
                   <a href="#service">About</a>
-                  <a href="">Destinations</a>
+                  <a href="#destination">Destinations</a>
                   <a href="">Packages</a>
                   <a href="">Blog</a>
                   <a href="">Contact Us</a>
