@@ -1,3 +1,4 @@
+import Destination from './components/Destination'
 import Introduction from './components/Introduction'
 import Navbar from './components/Navbar'
 import Service from './components/Service'
@@ -7,6 +8,7 @@ function App() {
       <Navbar/>
       <Introduction />
       <Service />
+      <Destination />
     </>
   )
 }
