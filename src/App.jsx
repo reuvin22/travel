@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Service from './components/Service'
 import TopDestination from './components/TopDestination'
 import WorkingHours from './components/WorkingHours'
+import Signup from './components/Signup'
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <TopDestination />
       <Experience />
       <Experts />
+      <Signup />
     </>
   )
 }
