@@ -478,6 +478,7 @@
 #topDestination {
     height: 125vh;
     width: 100%;
+    overflow: hidden;
 }
 .dTitle > p{
     color: var(--primary);
