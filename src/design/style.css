@@ -476,7 +476,7 @@
     font-size: 15px;
 }
 #topDestination {
-    height: 100vh;
+    height: 125vh;
     width: 100%;
 }
 .dTitle > p{
@@ -518,6 +518,155 @@
     width: 95%;
     margin-left: 3%;
     margin-top: 5%;
+}
+#experience {
+    height: 80vh;
+    width: 100%;
+}
+.experienceContainer {
+    display: flex;
+}
+.exp {
+    width: 40%;
+    height: 80vh;
+    margin-left: 5%;
+}
+.menTravel {
+    width: 60%;
+    height: 80vh;
+    border: 1px solid white;
+}
+.exp > h3{
+    color: var(--primary);
+}
+.exp > h1{
+    font-size: 48px;
+    color: black;
+    margin-top: 2%;
+}
+.exp > p {
+    color: #191825;
+}
+.expCards {
+    display: flex;
+    gap: 20px;
+}
+.menTravel {
+    display: grid;
+    place-items: center;
+}
+.circle2 {
+    border: 2px solid white;
+    height: 450px;
+    width: 450px;
+    background-color: #39A0FF;
+    border-radius: 50%;
+    margin-top: 10%;
+    display: grid;
+    place-items: center;
+}
+.circle2 > .man {
+    height: 500px;
+    margin-top: -12%;
+    z-index: 1;
+}
+.airplane1, .airplane2 {
+    height: 34px;
+    width: 34px;
+}
+.airplane1 {
+    margin-top: -880px;
+    margin-left: -400px;
+}
+.airplane2 {
+    margin-top: -1105px;
+    margin-left: -70px;
+}
+.arrowLeft, .arrowRight {
+    height: 196px;
+    width: 230px;
+}
+.arrowLeft{
+    margin-top: -650px;
+    margin-left: -400px;
+}
+.arrowRight {
+    margin-top: -900px;
+    margin-right: -200px;
+}
+.expCard1, .expCard2 {
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: -1px 4px 24px -9px rgba(0,0,0,0.75);
+}
+.expCard1 {
+    margin-left: -500px;
+    margin-top: -800px;
+}
+.expCard2    {
+    margin-left: 200px;
+    margin-top: -1000px;
+}
+#experts {
+    height: 70vh;
+    width: 100%;
+}
+.experienceContainer {
+    display: flex;
+}
+.meetExperts{
+    width: 50%;
+    height: 70vh;
+}
+.expertIntro {
+    width: 85%;
+    border: 1px solid white;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.expertIntro > h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.expertIntro > p {
+    margin-top: 2%;
+    color: gray;
+}
+.expertLocation {
+    width: 511px;
+    height: 323px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.expertContainer {
+    display: flex;
+}
+.expertise {
+    width: 60%;
+    height: 70vh;
+}
+.expertExpertise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 40px;
+    width: 100%;
+}
+.expertExpertiseContent {
+    display: grid;
+}
+.expertExpertise > img {
+    height: 60px;
+    width: 60px;
+}
+.expertExpertiseContent > p {
+    font-size: 16px;
+    width: 450px;
 }
 @media screen and (min-width: 300px) and (max-width: 798px){
     #home {
@@ -705,5 +854,48 @@
     }
     #topDestination {
         height: 340vh;
+    }
+    .menTravel {
+        display: none;
+    }
+    #experience {
+        height: 93vh;
+    }
+    .exp {
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .exp > h3 {
+        font-size: 30px;
+    }
+    .expCards {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-row-gap: 20px;
+    }
+    .expertContainer {
+        display: grid;
+        place-items: center;
+    }
+    .expertise {
+        width: 100%;
+    }
+    .meetExperts {
+        width: 100%;
+        place-items: center;
+    }
+    .meetExperts > img {
+        margin-left: 0;
+        width: 88%;
+    }
+    .expertIntro {
+        margin-left: 2%;
+    }
+    .expertExpertiseContent > p{
+        width: 100%
+    }
+    #experts {
+        height: 138vh;
     }
 }
