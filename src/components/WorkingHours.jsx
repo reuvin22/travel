@@ -10,7 +10,7 @@ import BusinessHours from './BusinessHours'
 export default function WorkingHours() {
   return (
     <>
-        <section className='h-[50vh] sm:h-[170vh] md:h-[170vh]'>
+        <section className='h-[50vh] sm:h-[150vh] md:h-[150vh]'>
             <div className="flex">
                 <div className="sm:hidden md:hidden w-1/2 grid place-items-center">
                     <div className="circle">
