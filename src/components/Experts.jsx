@@ -7,7 +7,7 @@ import Pizza from '../img/pizza.png'
 export default function Experts() {
   return (
     <>
-        <section className='h-[230vh]'>
+        <section className='h-[200vh]'>
             <div className="grid">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">
