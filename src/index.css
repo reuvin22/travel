@@ -19,3 +19,13 @@
     duration-150
     font-bold
 }
+.partner {
+    @apply
+    w-60
+    h-40
+}
+.logo {
+    @apply
+    w-24
+    h-24
+}

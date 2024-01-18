@@ -14,21 +14,26 @@ export default function Introduction() {
   return (
     <>
         <section id='home'>
-            <div className="homeContainer">
-                <div className="introduction">
-                    <div className="explore">
-                        <span>Explore the world!</span>
-                        <FontAwesomeIcon icon={faBagShopping} style={{color: "#f85e9f", height: 24, width: 24}}/>
+            <div className="w-screen flex justify-center items-center gap-10">
+                <div className="w-1/2 sm:w-screen md:w-screen sm:mt-24 md:mt-24">
+                    <div className='sm:w-screen sm:flex sm:justify-center'>
+                        <div className="flex justify-center my-5 border-2 w-1/2 gap-2 py-3 rounded-3xl w-48 mx-20">
+                            <span >Explore the world!</span>
+                            <FontAwesomeIcon icon={faBagShopping} style={{color: "#f85e9f", height: 24, width: 24}}/>
+                        </div>
                     </div>
-                    <div className='travel'><h1>Travel <span style={{ color: '#F85E9F' }}>top destination</span> in the Philippines</h1></div>
-                    <div className='shortIntro'><p>Where adventure meets comfort. We create unforgettable travel experiences</p></div>
-                    <div className='introBtn'>
-                        <button className='getStarted'>Get Started</button>
-                        <button className='watchDemo'><div className="playbtn"><FontAwesomeIcon icon={faPlay} style={{color: "#f1f4f8", height: 10, width: 10}} /></div>Watch Demo</button>
+                    <div className='text-center text-4xl'><h1>Travel <span style={{ color: '#F85E9F' }}>top destination</span> in the Philippines</h1></div>
+                    <div className='text-center text-xl'><p>Where adventure meets comfort. We create unforgettable travel experiences</p></div>
+                    <div className='gap-2 mt-4 flex justify-center items-center sm:w-screen'>
+                        <button className='border-2 p-3 rounded-3xl bg-fuchsia-900 text-white'>Get Started</button>
+                        <button className='flex gap-1 border-2
+                         p-2 rounded-3xl border-fuchsia-500
+                         hover:bg-fuchsia-500 hover:text-white'><div className="bg-fuchsia-900 rounded-full w-5 h-5 grid place-content-center"><FontAwesomeIcon icon={faPlay} style={{color: "#f1f4f8", height: 10, width: 10}} /></div>Watch Demo</button>
                     </div>
                 </div>
-                <div className="images">
-                    <div className="globe"><img src={Globe} alt="Globe" className='globeGif'/></div>
+                <div className="flex justify-center items-center
+                sm:hidden md:hidden">
+                    <img src={Globe} alt="Globe" className='globeGif'/>
                     <hr />
                     <div className="places1">
                         <FontAwesomeIcon icon={faLocationDot} style={{color: "#fdd50d", width: 40, height: 25}} />
@@ -47,14 +52,16 @@ export default function Introduction() {
                     </div>
                 </div>
             </div>
-            <div className="partnership">
-                <div className="partners">
-                    <img src={Airbnb} alt="Airbnb" />
-                    <img src={PhilippinesAirline} alt="PhilippinesAirline" />
-                    <img src={Booking} alt="Booking" />
-                    <img src={Tripad} alt="Tripad" />
+                <div className='sm:mt-10 md:mt-10 grid place-items-center text-4xl font-bold mt-20'>
+                       <h1 className='text-gray-500'> Our Partners</h1>
+                    </div>
+                <div className="sm:grid sm:place-items-center sm:mt-24 md:place-items-center md:grid sm:grid-cols-2 md:grid-cols-2
+                mx-10 flex gap-20 my-6 mt-10">
+                    <img src={Airbnb} alt="Airbnb" className='partner'/>
+                    <img src={PhilippinesAirline} alt="PhilippinesAirline" className='partner'/>
+                    <img src={Booking} alt="Booking" className='partner'/>
+                    <img src={Tripad} alt="Tripad" className='partner'/>
                 </div>
-            </div>
         </section>
     </>
   )

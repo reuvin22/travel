@@ -7,12 +7,13 @@ import Book from '../img/book.png'
 export default function Service() {
   return (
     <>
-        <section id="service">
-            <div className="services">
-                <div className='values'>
-                    <h3>What we service</h3>
-                    <h1>Top values for you</h1>
-                    <p>Embrace life's vastness, venture forth</p>
+        <section>
+            <div className="flex gap-x-8 border-8 justify-center items-center sm:grid sm:grid-cols-2 
+            md:grid md:grid-cols-2 sm:place-items-center md:place-items-center">
+                <div className='grid w-52 sm:text-sm md:text-sm'>
+                    <h3 className='text-fuchsia-400 text-2xl sm:text-center md:text-center'>What we service</h3>
+                    <h1 className='font-bold md:text-center sm:text-center'>Top values for you</h1>
+                    <p className='sm:text-center md:text-center'>Embrace life's vastness, venture forth</p>
                 </div>
                 <Cards 
                     image = {Lots}
