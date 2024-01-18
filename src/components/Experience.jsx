@@ -13,7 +13,7 @@ export default function Experience() {
     <>
         <section className='sm:h-[120vh]'>
             <div className="">
-                <div className="border-8 w-screen text-center">
+                <div className="w-screen text-center">
                     <h3 className='text-fuchsia-500 text-3xl font-bold my-5'>Our Experience</h3>
                     <h1 className='text-xl font-bold my-5'>Crafting Unforgettable Adventures</h1>
                     <p>We excel in curating remarkable journeys, specializing in outdoor destinations around the globe. With a wealth of experience, we bring adventures to life and invite you to embark on your own. The call of nature awaits—begin your adventure today!</p>

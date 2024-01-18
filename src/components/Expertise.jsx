@@ -2,11 +2,11 @@ import React from 'react'
 export default function Expertise(props) {
   return (
     <>
-        <div className="expertExpertise">
-            <img src={props.expertLogo} alt="Logo" />
+        <div className="grid place-items-center mt-5">
+            <img src={props.expertLogo} alt="Logo" className='w-20'/>
             <div className="expertExpertiseContent">
-                <h2>{props.expertTitle}</h2>
-                <p>{props.description}</p>
+                <h2 className='text-center font-bold text-3xl'>{props.expertTitle}</h2>
+                <p className='text-2xl mt-5'>{props.description}</p>
             </div>
         </div>
     </>

@@ -7,16 +7,18 @@ import Pizza from '../img/pizza.png'
 export default function Experts() {
   return (
     <>
-        <section id="experts">
-            <div className="expertContainer">
-                <div className="meetExperts">
-                    <div className="expertIntro">
-                        <h1>Meet Our Expert Tour Guides</h1>
-                        <p>Our journeys are enriched by our team of seasoned tour guides. Our guides bring your adventures to life with their expertise, passion</p>
+        <section className='h-[140vh]'>
+            <div className="grid border-8">
+                <div className="grid">
+                    <div className="border-8 w-screen">
+                        <h1 className='text-3xl font-bold text-center'>Meet Our Expert Tour Guides</h1>
+                        <p className='text-center mt-5 text-lg'>Our journeys are enriched by our team of seasoned tour guides. Our guides bring your adventures to life with their expertise, passion</p>
                     </div>
-                    <img src={Expert} alt="location" className='expertLocation'/>
+                    <div className='w-screen grid place-items-center'>
+                        <img src={Expert} alt="location" className='w-96 h-62 mt-5'/>
+                    </div>
                 </div>
-                <div className="expertise">
+                <div className="grid border-8">
                     <Expertise 
                         expertLogo = {Like}
                         expertTitle = "Expertise"
