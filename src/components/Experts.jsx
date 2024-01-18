@@ -18,7 +18,7 @@ export default function Experts() {
                         <img src={Expert} alt="location" className='w-96 h-62 mt-5'/>
                     </div>
                 </div>
-                <div className="grid border-8">
+                <div className="grid w-screen">
                     <Expertise 
                         expertLogo = {Like}
                         expertTitle = "Expertise"
