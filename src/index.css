@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+    @apply
+    bg-gradient-to-r from-violet-500 to-fuchsia-500
+    bg-clip-text
+    text-transparent
+}
+.nav {
+    @apply
+    text-xl
+    flex
+    justify-center
+    place-items-center
+    hover:text-fuchsia-600
+    duration-150
+    font-bold
+}
