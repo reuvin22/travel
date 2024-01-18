@@ -10,15 +10,17 @@ import Signup from './components/Signup'
 function App() {
   return (
     <>
-      <Navbar/>
-      <Introduction />
-      <Service />
-      <Destination />
-      <WorkingHours />
-      <TopDestination />
-      <Experience />
-      <Experts />
-      <Signup />
+      <div className='overflow-x-hidden'>
+        <Navbar/>
+        <Introduction />
+        <Service />
+        <Destination />
+        <WorkingHours />
+        <TopDestination />
+        <Experience />
+        <Experts />
+        <Signup />
+      </div>
     </>
   )
 }

@@ -8,7 +8,7 @@ import Destination3 from '../img/destination3.png'
 export default function Destination() {
   return (
     <>
-        <section className='sm:h-[230vh] md:h-[230vh] h-[85vh] overflow-x-hidden'>
+        <section className='sm:h-[230vh] md:h-[230vh] h-[85vh]'>
             <div className="destination">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">
@@ -20,8 +20,7 @@ export default function Destination() {
                         <img src={Next} alt="Next" className='w-32 h-32 cursor-pointer'/>
                     </div>
                 </div>
-                <div className="flex 
-                gap-x-8
+                <div className="flex
                 sm:grid sm:gap-y-5
                 sm:grid sm:gap-y-5"
                 >
