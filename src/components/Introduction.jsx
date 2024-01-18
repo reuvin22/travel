@@ -13,7 +13,7 @@ import Globe from '../img/globe1.gif'
 export default function Introduction() {
   return (
     <>
-        <section className='h-[100vh] sm:h-[150vh]'>
+        <section className='h-[100vh] sm:h-[150vh] overflow-x-hidden'>
             <div className="w-screen flex justify-center items-center gap-10">
                 <div className="w-1/2 sm:w-screen md:w-screen sm:mt-24 md:mt-24">
                     <div className='sm:w-screen sm:flex sm:justify-center'>
@@ -23,7 +23,7 @@ export default function Introduction() {
                         </div>
                     </div>
                     <div className='text-center text-4xl'><h1>Travel <span style={{ color: '#F85E9F' }}>top destination</span> in the Philippines</h1></div>
-                    <div className='text-center text-xl'><p>Where adventure meets comfort. We create unforgettable travel experiences</p></div>
+                    <div className='text-center text-lg'><p>Where adventure meets comfort. We create unforgettable travel experiences</p></div>
                     <div className='gap-2 mt-4 flex justify-center items-center sm:w-screen'>
                         <button className='border-2 p-3 rounded-3xl bg-fuchsia-900 text-white'>Get Started</button>
                         <button className='flex gap-1 border-2

@@ -8,7 +8,7 @@ import Destination3 from '../img/destination3.png'
 export default function Destination() {
   return (
     <>
-        <section className='sm:h-[230vh] md:h-[230vh] h-[85vh]'>
+        <section className='sm:h-[230vh] md:h-[230vh] h-[85vh] overflow-x-hidden'>
             <div className="destination">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">

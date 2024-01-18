@@ -7,7 +7,7 @@ import Pizza from '../img/pizza.png'
 export default function Experts() {
   return (
     <>
-        <section className='h-[200vh]'>
+        <section className='h-[200vh] overflow-x-hidden'>
             <div className="grid">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">
@@ -15,7 +15,7 @@ export default function Experts() {
                         <p className='text-center mt-5 text-lg w-5/6'>Our journeys are enriched by our team of seasoned tour guides. Our guides bring your adventures to life with their expertise, passion</p>
                     </div>
                     <div className='w-screen grid place-items-center'>
-                        <img src={Expert} alt="location" className='w-96 h-62 mt-5'/>
+                        <img src={Expert} alt="location" className='w-80 h-62 mt-5'/>
                     </div>
                 </div>
                 <div className="grid w-screen">

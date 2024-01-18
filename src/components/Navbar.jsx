@@ -13,7 +13,7 @@ export default function Navbar() {
   }
   return (
     <>
-        <div className="w-11/12 ml-10 mt-10 flex justify-center sm:gap-y-96 items-center space-x-64 h-12 md:space-x-24 sm:space-x-32" >
+        <div className="w-[89%] ml-10 mt-10 flex justify-center sm:gap-y-96 items-center space-x-64 h-12 md:space-x-24 sm:space-x-32" >
             <h1 className='text-4xl font-bold text-gradient'>TraPinas</h1>
             <div className="flex text-xl gap-6 sm:hidden">
                 <a href="#home" className='nav'>Home</a>

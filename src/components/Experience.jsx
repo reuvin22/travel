@@ -11,11 +11,11 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 export default function Experience() {
   return (
     <>
-        <section className='sm:h-[120vh]'>
+        <section className='sm:h-[120vh] overflow-x-hidden'>
             <div className="">
                 <div className="w-screen grid place-items-center">
                     <h3 className='text-fuchsia-500 text-3xl font-bold my-5'>Our Experience</h3>
-                    <h1 className='text-xl font-bold my-5'>Crafting Unforgettable Adventures</h1>
+                    <h1 className='text-lg font-bold my-5'>Crafting Unforgettable Adventures</h1>
                     <p className='text-center text-md w-5/6'>We excel in curating remarkable journeys, specializing in outdoor destinations around the globe. With a wealth of experience, we bring adventures to life and invite you to embark on your own. The call of nature awaits—begin your adventure today!</p>
                     <div className="grid place-items-center">
                         <BusinessHours 
