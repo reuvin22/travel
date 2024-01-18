@@ -10,7 +10,7 @@ import BusinessHours from './BusinessHours'
 export default function WorkingHours() {
   return (
     <>
-        <section className='h-[50vh]'>
+        <section className='h-[50vh] sm:h-[120vh] md:h-[120vh]'>
             <div className="flex">
                 <div className="sm:hidden md:hidden w-1/2 grid place-items-center">
                     <div className="circle">
@@ -25,7 +25,7 @@ export default function WorkingHours() {
                 <div className="grid place-items-center w-1/2">
                     <h3 className='text-fuchsia-700 text-2xl font-bold'>WHAT ARE THE BEST FOR YOU</h3>
                     <h1 className='text-lg font-bold'>Unlock Your Dream Destination</h1>
-                    <p className='text-lg text-center mt-5 w-4/6'>We are dedicated to making your journey of discovery truly unforgettable. Our team of passionate travel experts is here to assist you in finding the destination of your dreams.</p>
+                    <p className='text-lg text-center mt-5 w-4/6 sm:text-sm md:text-sm'>We are dedicated to making your journey of discovery truly unforgettable. Our team of passionate travel experts is here to assist you in finding the destination of your dreams.</p>
                     <div className="grid grid-cols-2 gap-x-5">
                         <BusinessHours 
                             numbers = "4k+"
