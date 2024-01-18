@@ -8,19 +8,23 @@ import Destination3 from '../img/destination3.png'
 export default function Destination() {
   return (
     <>
-        <section id="destination">
+        <section className='sm:h-[140vh] md:h-[140vh] h-[60vh]'>
             <div className="destination">
-                <div className="headers">
-                    <div className="destinationIntro">
-                        <h3>CHOOSE YOUR NEXT DESTINATION</h3>
+                <div className="grid">
+                    <div className="w-screen grid place-items-center">
+                        <h3 className='text-2xl font-bold'>CHOOSE YOUR NEXT DESTINATION</h3>
                         <h1>Explore top destination</h1>
                     </div>
-                    <div className="arrows">
-                        <img src={Prev} alt="Previous" />
-                        <img src={Next} alt="Next" />
+                    <div className="flex mt-5 h-24 justify-center">
+                        <img src={Prev} alt="Previous" className='w-32 h-32 cursor-pointer'/>
+                        <img src={Next} alt="Next" className='w-32 h-32 cursor-pointer'/>
                     </div>
                 </div>
-                <div className="listDestination">
+                <div className="flex 
+                gap-x-8
+                sm:grid sm:gap-y-5
+                sm:grid sm:gap-y-5"
+                >
                     <DestinationImages
                         dImage = {Destination1}
                         title = "Cappadocia"

@@ -13,7 +13,7 @@ import Globe from '../img/globe1.gif'
 export default function Introduction() {
   return (
     <>
-        <section className='h-full'>
+        <section className='h-[75vh] sm:h-[100vh] md:h-[100vh]'>
             <div className="w-screen flex justify-center items-center gap-10">
                 <div className="w-1/2 sm:w-screen md:w-screen sm:mt-24 md:mt-24">
                     <div className='sm:w-screen sm:flex sm:justify-center'>
@@ -55,8 +55,10 @@ export default function Introduction() {
                 <div className='sm:mt-10 md:mt-10 grid place-items-center text-4xl font-bold mt-20'>
                        <h1 className='text-gray-500'> Our Partners</h1>
                     </div>
-                <div className="sm:grid sm:place-items-center sm:mt-24 md:place-items-center md:grid sm:grid-cols-2 md:grid-cols-2
-                mx-10 flex gap-20 my-6">
+                <div className="sm:grid sm:place-items-center sm:mt-24 md:place-items-center 
+                md:grid sm:grid-cols-2 md:grid-cols-2
+                sm:gap-8 md:gap-8
+                mx-10 flex gap-20">
                     <img src={Airbnb} alt="Airbnb" className='partner'/>
                     <img src={PhilippinesAirline} alt="PhilippinesAirline" className='partner'/>
                     <img src={Booking} alt="Booking" className='partner'/>
