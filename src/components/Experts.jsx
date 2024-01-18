@@ -8,11 +8,11 @@ export default function Experts() {
   return (
     <>
         <section className='h-[140vh]'>
-            <div className="grid border-8">
+            <div className="grid">
                 <div className="grid">
-                    <div className="border-8 w-screen">
-                        <h1 className='text-3xl font-bold text-center'>Meet Our Expert Tour Guides</h1>
-                        <p className='text-center mt-5 text-lg'>Our journeys are enriched by our team of seasoned tour guides. Our guides bring your adventures to life with their expertise, passion</p>
+                    <div className="w-screen grid place-items-center">
+                        <h1 className='text-4xl text-fuchsia-500 font-bold text-center'>Meet Our Expert Tour Guides</h1>
+                        <p className='text-center mt-5 text-lg w-5/6'>Our journeys are enriched by our team of seasoned tour guides. Our guides bring your adventures to life with their expertise, passion</p>
                     </div>
                     <div className='w-screen grid place-items-center'>
                         <img src={Expert} alt="location" className='w-96 h-62 mt-5'/>
