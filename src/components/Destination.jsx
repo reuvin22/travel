@@ -8,11 +8,11 @@ import Destination3 from '../img/destination3.png'
 export default function Destination() {
   return (
     <>
-        <section className='sm:h-[150vh] md:h-[150vh] h-[60vh]'>
+        <section className='border-8 sm:h-[150vh] md:h-[150vh] h-[85vh]'>
             <div className="destination">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">
-                        <h3 className='text-2xl font-bold'>CHOOSE YOUR NEXT DESTINATION</h3>
+                        <h3 className='text-2xl font-bold text-center'>CHOOSE YOUR NEXT DESTINATION</h3>
                         <h1>Explore top destination</h1>
                     </div>
                     <div className="flex mt-5 h-24 justify-center">
