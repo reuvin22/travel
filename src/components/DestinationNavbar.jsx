@@ -3,12 +3,12 @@ import React from 'react'
 export default function DestinationNavbar() {
   return (
     <>
-        <div className="dNavBar">
-            <div className="dTitle">
-                <p>TOP DESTINATION</p>
-                <h1>Explore top destination</h1>
+        <div className="grid place-items-center">
+            <div className="sm:grid md:grid">
+                <p className='text-fuchsia-400 font-bold text-lg text-center'>TOP DESTINATION</p>
+                <h1 className='text-2xl font-bold'>Explore top destination</h1>
             </div>
-            <div className="dLinks">
+            <div className="flex gap-5 mt-3">
                 <a href="">City</a>
                 <a href="">Forest</a>
                 <a href="">Mountain</a>

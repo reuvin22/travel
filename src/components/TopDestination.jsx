@@ -8,9 +8,9 @@ import Destination3 from '../img/destination3.png'
 export default function TopDestination() {
   return (
     <>
-        <section id="topDestination">
+        <section className='sm:h-[230vh]'>
             <DestinationNavbar />
-            <div className="moreDestination">
+            <div className=" sm:w-screen sm:grid sm:place-items-center sm:mt-5 sm:gap-5">
                 <DestinationImages
                     dImage = {Destination1}
                     title = "Cappadocia"
