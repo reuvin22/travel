@@ -7,7 +7,7 @@ import Book from '../img/book.png'
 export default function Service() {
   return (
     <>
-        <section className='border-8 h-[30vh] grid'>
+        <section className='h-[30vh] grid sm:h-[80vh] md:h-[80vh]'>
             <div className="flex gap-x-8 justify-center items-center 
             sm:grid sm:grid-cols-2 
             md:grid md:grid-cols-2 
