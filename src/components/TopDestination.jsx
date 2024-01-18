@@ -10,7 +10,7 @@ export default function TopDestination() {
     <>
         <section className='sm:h-[390vh] md:h-[390vh]'>
             <DestinationNavbar />
-            <div className=" sm:w-screen sm:grid sm:place-items-center sm:mt-5 sm:gap-5">
+            <div className="place-items-center sm:w-screen sm:grid-cols-1 sm:place-items-center sm:mt-5 sm:gap-5 grid grid-cols-3 gap-y-10 mt-10">
                 <DestinationImages
                     dImage = {Destination1}
                     title = "Cappadocia"
