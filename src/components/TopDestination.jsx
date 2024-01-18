@@ -8,7 +8,7 @@ import Destination3 from '../img/destination3.png'
 export default function TopDestination() {
   return (
     <>
-        <section className='sm:h-[230vh]'>
+        <section className='sm:h-[280vh] md:h-[280vh]'>
             <DestinationNavbar />
             <div className=" sm:w-screen sm:grid sm:place-items-center sm:mt-5 sm:gap-5">
                 <DestinationImages
