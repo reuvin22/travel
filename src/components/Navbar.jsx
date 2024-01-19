@@ -18,8 +18,8 @@ export default function Navbar() {
             <h1 className='text-4xl font-bold text-gradient'>TraPinas</h1>
             <div className="flex text-xl gap-6 sm:hidden">
                 <a href="#home" className='nav'>Home</a>
-                <a href="#service" className='nav'>About</a>
-                <a href="#destination" className='nav'>Destinations</a>
+                <a href="#services" className='nav'>About</a>
+                <a href="#destinations" className='nav'>Destinations</a>
                 <a href="" className='nav'>Packages</a>
                 <a href="" className='nav'>Blog</a>
                 <a href="" className='nav'>Contact</a>
@@ -34,8 +34,8 @@ export default function Navbar() {
               <div className='mt-12 w-screen text-white 
               grid place-items-center gap-4'>
                 <a href="#home" className='nav'>Home</a>
-                <a href="#service" className='nav'>About</a>
-                <a href="#destination" className='nav'>Destinations</a>
+                <a href="#services" className='nav'>About</a>
+                <a href="#destinations" className='nav'>Destinations</a>
                 <a href="" className='nav'>Packages</a>
                 <a href="" className='nav'>Blog</a>
                 <a href="" className='nav'>Contact</a>

@@ -7,7 +7,7 @@ import Pizza from '../img/pizza.png'
 export default function Experts() {
   return (
     <>
-        <section className='sm:h-[195vh] md:h-[110vh] h-[80vh]'>
+        <section id='experts' className='sm:h-[195vh] md:h-[110vh] h-[80vh]'>
             <div className="sm:grid md:grid flex mx-10 sm:mx-0 md:mx-0">
                 <div className="sm:grid md:grid w-[50%]">
                     <div className="sm:w-screen sm:grid sm:place-items-center
