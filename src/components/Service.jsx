@@ -7,7 +7,7 @@ import Book from '../img/book.png'
 export default function Service() {
   return (
     <>
-        <section className='h-[30vh] grid sm:h-[80vh] md:h-[80vh] overflow-x-hidden'>
+        <section className='h-[50vh] grid sm:h-[80vh] md:h-[80vh] overflow-x-hidden'>
             <div className="flex gap-x-8 justify-center items-center 
             sm:grid sm:grid-cols-2 
             md:grid md:grid-cols-2 
@@ -17,7 +17,7 @@ export default function Service() {
             md:place-items-center
             md:gap-x-0">
                 <div className='grid w-52 sm:text-sm md:text-sm '>
-                    <h3 className='text-fuchsia-400 text-2xl sm:text-xl sm:text-center md:text-center'>What we service</h3>
+                    <h3 className='text-fuchsia-400 text-3xl font-bold mb-2 sm:text-xl sm:text-center md:text-center'>What we service</h3>
                     <h1 className='font-bold md:text-center sm:text-center'>Top values for you</h1>
                     <p className='sm:text-center md:text-center'>Embrace life's vastness, venture forth</p>
                 </div>

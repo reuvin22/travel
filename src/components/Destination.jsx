@@ -8,7 +8,7 @@ import Destination3 from '../img/destination3.png'
 export default function Destination() {
   return (
     <>
-        <section className='sm:h-[230vh] md:h-[230vh] h-[85vh]'>
+        <section className='sm:h-[230vh] md:h-[230vh] h-[60vh] '>
             <div className="destination">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">
@@ -22,7 +22,10 @@ export default function Destination() {
                 </div>
                 <div className="flex
                 sm:grid sm:gap-y-5
-                sm:grid sm:gap-y-5"
+                sm:grid sm:gap-y-5
+                md:grid md:grid-cols-2
+                gap-x-5 md:gap-y-5"
+                
                 >
                     <DestinationImages
                         dImage = {Destination1}

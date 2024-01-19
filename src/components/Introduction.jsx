@@ -13,17 +13,18 @@ import Globe from '../img/globe1.gif'
 export default function Introduction() {
   return (
     <>
-        <section className='h-[100vh] sm:h-[150vh]'>
+        <section className='h-[65vh] sm:h-[150vh] md:h-[150vh]'>
             <div className="w-screen flex justify-center items-center gap-10">
-                <div className="w-1/2 sm:w-screen md:w-screen sm:mt-24 md:mt-24">
-                    <div className='sm:w-screen sm:flex sm:justify-center'>
-                        <div className="flex justify-center my-5 border-2 w-1/2 gap-2 py-3 rounded-3xl w-48 mx-20">
+                <div className="w-1/2 sm:w-[90%] md:w-screen sm:mt-24 md:mt-24">
+                    <div className='sm:w-[100%] sm:flex sm:justify-center 
+                    md:w-[70%]'>
+                        <div className="flex justify-center border-2 my-5 gap-2 py-3 rounded-3xl w-48 mx-20">
                             <span >Explore the world!</span>
                             <FontAwesomeIcon icon={faBagShopping} style={{color: "#f85e9f", height: 24, width: 24}}/>
                         </div>
                     </div>
                     <div className='text-center text-4xl'><h1>Travel <span style={{ color: '#F85E9F' }}>top destination</span> in the Philippines</h1></div>
-                    <div className='text-center text-lg'><p>Where adventure meets comfort. We create unforgettable travel experiences</p></div>
+                    <div className='text-center text-lg mt-5'><p>Where adventure meets comfort. We create unforgettable travel experiences</p></div>
                     <div className='gap-2 mt-4 flex justify-center items-center sm:w-screen'>
                         <button className='border-2 p-3 rounded-3xl bg-fuchsia-900 text-white'>Get Started</button>
                         <button className='flex gap-1 border-2
@@ -53,12 +54,12 @@ export default function Introduction() {
                 </div>
             </div>
                 <div className='sm:mt-10 md:mt-10 grid place-items-center text-4xl font-bold mt-20'>
-                       <h1 className='text-gray-500'> Our Partners</h1>
+                       <h1 className='text-gray-500 mt-10'> Our Partners</h1>
                     </div>
                 <div className="sm:grid sm:place-items-center sm:mt-24 md:place-items-center 
                 md:grid sm:grid-cols-2 md:grid-cols-2
                 sm:gap-8 md:gap-8
-                mx-10 flex gap-20">
+                mx-10 flex gap-20 justify-center items-center">
                     <img src={Airbnb} alt="Airbnb" className='partner'/>
                     <img src={PhilippinesAirline} alt="PhilippinesAirline" className='partner'/>
                     <img src={Booking} alt="Booking" className='partner'/>

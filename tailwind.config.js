@@ -7,6 +7,8 @@ export default {
   theme: {
     screens: {
       'sm': {'max': '767px'},
+      
+      'lsm': {'min': '600px', 'max': '767px'},
 
       'md': {'min': '768px', 'max': '1023px'},
 

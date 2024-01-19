@@ -7,18 +7,24 @@ import Pizza from '../img/pizza.png'
 export default function Experts() {
   return (
     <>
-        <section className='h-[200vh]'>
-            <div className="grid">
-                <div className="grid">
-                    <div className="w-screen grid place-items-center">
+        <section className='sm:h-[200vh] md:h-[200vh] h-[60vh]'>
+            <div className="sm:grid md:grid flex mx-10 sm:mx-0 md:mx-0">
+                <div className="sm:grid md:grid w-[50%]">
+                    <div className="sm:w-screen sm:grid sm:place-items-center
+                    md:w-screen md:grid md:place-items-center
+                    w-[100%]">
                         <h1 className='text-4xl text-fuchsia-500 font-bold text-center'>Meet Our Expert Tour Guides</h1>
                         <p className='text-center mt-5 text-lg w-5/6'>Our journeys are enriched by our team of seasoned tour guides. Our guides bring your adventures to life with their expertise, passion</p>
                     </div>
-                    <div className='w-screen grid place-items-center'>
-                        <img src={Expert} alt="location" className='w-80 h-62 mt-5'/>
+                    <div className='sm:w-screen md:w-screen grid
+                    place-items-center w-[100%]'>
+                        <img src={Expert} alt="location" className='sm:w-80 sm:h-62 
+                        md:w-80 md:h-62
+                        w-96
+                        mt-5'/>
                     </div>
                 </div>
-                <div className="grid w-screen">
+                <div className="grid sm:w-screen md:w-screen w-[50%]">
                     <Expertise 
                         expertLogo = {Like}
                         expertTitle = "Expertise"

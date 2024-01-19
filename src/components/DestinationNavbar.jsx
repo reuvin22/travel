@@ -5,7 +5,10 @@ export default function DestinationNavbar() {
     <>
         <div className="grid place-items-center">
             <div className="sm:grid md:grid">
-                <p className='text-fuchsia-400 font-bold text-lg text-center'>TOP DESTINATION</p>
+                <p className='text-fuchsia-400 font-bold sm:text-lg 
+                md:text-lg
+                text-3xl
+                text-center'>TOP DESTINATION</p>
                 <h1 className='text-2xl font-bold'>Explore top destination</h1>
             </div>
             <div className="flex gap-5 mt-3">

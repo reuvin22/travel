@@ -12,6 +12,7 @@
 .nav {
     @apply
     text-xl
+    md:hidden
     flex
     justify-center
     place-items-center
