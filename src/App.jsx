@@ -10,7 +10,7 @@ import Signup from './components/Signup'
 function App() {
   return (
     <>
-      <div className='overflow-x-hidden'>
+      <div className='overflow-hidden'>
         <Navbar/>
         <Introduction />
         <Service />
