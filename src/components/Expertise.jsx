@@ -8,7 +8,7 @@ export default function Expertise(props) {
         mt-5 sm:w-screen md:w-screen">
             <img src={props.expertLogo} alt="Logo" className='sm:w-20 md:w-14 w-18 h-14'/>
             <div className="sm:w-screen md:w-screen grid place-items-center">
-                <h2 className='sm:text-center md:text-center font-bold text-3xl'>{props.expertTitle}</h2>
+                <h2 className='sm:text-center md:text-center font-bold text-3xl sm:mt-5'>{props.expertTitle}</h2>
                 <p className='sm:text-center md:text-center text-lg mt-5 
                 sm:text-center 
                 md:text-center

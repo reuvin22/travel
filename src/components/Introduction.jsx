@@ -16,9 +16,8 @@ export default function Introduction() {
         <section className='h-[65vh] sm:h-[150vh] md:h-[150vh]'>
             <div className="w-screen flex justify-center items-center gap-10">
                 <div className="w-1/2 sm:w-[90%] md:w-screen sm:mt-24 md:mt-24">
-                    <div className='sm:w-[100%] sm:flex sm:justify-center 
-                    md:w-[70%]'>
-                        <div className="flex justify-center border-2 my-5 gap-2 py-3 rounded-3xl w-48 mx-20">
+                    <div className=''>
+                        <div className="flex justify-center items-center border-2 my-5 gap-2 py-3 rounded-3xl w-48 mx-20">
                             <span >Explore the world!</span>
                             <FontAwesomeIcon icon={faBagShopping} style={{color: "#f85e9f", height: 24, width: 24}}/>
                         </div>
@@ -53,10 +52,10 @@ export default function Introduction() {
                     </div>
                 </div>
             </div>
-                <div className='sm:mt-10 md:mt-10 grid place-items-center text-4xl font-bold mt-20'>
+                <div className='sm:mt-10 md:mt-5 grid place-items-center text-4xl font-bold mt-20'>
                        <h1 className='text-gray-500 mt-10'> Our Partners</h1>
                     </div>
-                <div className="sm:grid sm:place-items-center sm:mt-24 md:place-items-center 
+                <div className="sm:grid sm:place-items-center sm:mt-16 md:place-items-center 
                 md:grid sm:grid-cols-2 md:grid-cols-2
                 sm:gap-8 md:gap-8
                 mx-10 flex gap-20 justify-center items-center">
