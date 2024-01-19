@@ -9,7 +9,7 @@ export default function Destination() {
   return (
     <>
         <section id='destinations' className='sm:h-[230vh] md:h-[130vh] md:mt-56 h-[88vh] '>
-            <div className="destination">
+            <div className="grid place-items-center">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">
                         <h3 className='text-2xl font-bold text-center'>CHOOSE YOUR NEXT DESTINATION</h3>
