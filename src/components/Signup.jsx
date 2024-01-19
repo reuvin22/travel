@@ -4,7 +4,7 @@ import Send from '../img/send.png'
 export default function Signup() {
   return (
     <>
-        <section className='sm:h-[50vh] md:h-[50vh] h-[30vh] grid place-items-center'>
+        <section className='sm:h-[50vh] md:h-[50vh] h-[40vh] grid place-items-center'>
             <div className="border-2 rounded-3xl h-72 grid place-items-center bg-yellow-400 lg:w-4/5 xl:w-4/5">
                 <div className="grid place-items-center ">
                     <h1 className='font-bold text-2xl lg:text-4xl xl:text-4xl'>Sign up to our newsletter</h1>
