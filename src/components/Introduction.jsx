@@ -13,7 +13,7 @@ import Globe from '../img/globe1.gif'
 export default function Introduction() {
   return (
     <>
-        <section id='home' className='h-[90vh] sm:h-[150vh] md:h-[90vh]'>
+        <section id='home'>
             <div className="w-screen flex justify-center items-center gap-10">
                 <div className="w-1/2 sm:w-[90%] md:w-screen sm:mt-24 md:mt-24">
                     <div className=''>
