@@ -11,7 +11,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 export default function Experience() {
   return (
     <>
-        <section className='sm:h-[130vh] md:h-[80vh] h-[85vh] w-screen'>
+        <section className='my-20 mx-12'>
             <div className="flex">
                 <div className="w-[50%] grid place-items-center mt-5 sm:w-screen md:w-screen">
                     <h3 className='text-fuchsia-500 text-3xl font-bold my-5'>Our Experience</h3>

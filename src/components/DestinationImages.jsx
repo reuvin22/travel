@@ -1,9 +1,8 @@
 import React from 'react'
-import Rating from '../img/rating.png'
 export default function DestinationImages(props) {
   return (
     <>
-        <div className="destinationImages">
+        <div className="destinationImages w-80 relative">
             <div className="dImage">
                 <img src={props.dImage} alt="Image" />
             </div>

@@ -8,7 +8,7 @@ import Destination3 from '../img/destination3.png'
 export default function Destination() {
   return (
     <>
-        <section id='destinations' className='sm:h-[230vh] md:h-[130vh] md:mt-56 h-[88vh] '>
+        <section id='destinations'>
             <div className="grid place-items-center">
                 <div className="grid">
                     <div className="w-screen grid place-items-center">
@@ -16,12 +16,11 @@ export default function Destination() {
                         <h1>Explore top destination</h1>
                     </div>
                     <div className="flex mt-5 h-24 justify-center">
-                        <img src={Prev} alt="Previous" className='w-32 h-32 cursor-pointer'/>
-                        <img src={Next} alt="Next" className='w-32 h-32 cursor-pointer'/>
+                        <img src={Prev} alt="Previous" className='w-24 h-32 cursor-pointer hover:scale-110'/>
+                        <img src={Next} alt="Next" className='w-24 h-32 cursor-pointer hover:scale-110'/>
                     </div>
                 </div>
                 <div className="flex
-                sm:grid sm:gap-y-5
                 sm:grid sm:gap-y-5
                 md:grid md:grid-cols-2
                 gap-x-5 md:gap-y-5"

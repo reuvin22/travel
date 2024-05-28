@@ -10,8 +10,7 @@ import BusinessHours from './BusinessHours'
 export default function WorkingHours() {
   return (
     <>
-        <section className='h-[88vh] sm:h-[140vh] md:h-[80vh] lg:h-[60vh]'>
-            <div className="flex">
+            <div className="flex my-20">
                 <div className="sm:hidden md:hidden w-1/2 grid place-items-center">
                     <div className="circle">
                         <img src={Girl} alt="Girl" className='girl'/>
@@ -47,7 +46,6 @@ export default function WorkingHours() {
                     </div>
                 </div>
             </div>
-        </section>
     </>
   )
 }
